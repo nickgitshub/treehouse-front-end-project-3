@@ -1,0 +1,158 @@
+
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+*{
+	font-family: 'Noto Sans HK', sans-serif;
+
+}
+
+body{
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+	margin: 0em; 
+	padding: 0em; 
+	text-align: center;
+}
+
+header{
+	text-align: center; 
+	background-color: navy; 
+	margin: 0em;  
+}
+
+legend{
+	text-align: center;
+}
+
+
+form{
+	display: inline-block;
+	background-color: white;
+	border-radius: 8px;
+	margin: auto;
+}
+
+p{
+	margin-bottom: 1.1em; 
+	padding: 0em 1em 0em 1em;
+}
+
+form p{
+	text-align: left;
+}
+
+input{
+}
+
+input[type="text"],
+input[type="email"],
+input[type="telephone"],
+select,
+textarea{
+	border: none;
+	font-size: 16px;
+	margin: 0;
+	outline: 0;
+	padding: 15px;
+	width: 80%;
+	background-color: #e8eeef;
+  	color: black;
+  	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  	margin-bottom: 15px;
+  	border-radius: 4px; 
+}
+
+select{
+  width: 270px; 
+}
+
+textarea{
+	height: 4em; 
+	width: 80%; 
+	}
+
+fieldset{
+	margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-block-start: 0em;
+    padding-inline-start: 0em;
+    padding-inline-end: 0em;
+    padding-block-end: 0em;
+}
+
+label{
+	display: block;
+	margin-bottom: 1em; 
+	text-align: left; 
+	padding: 0 1em 0 1em;
+}
+
+button{
+	display: inline-block;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+  	background-color: navy;
+  	width: 90%;
+
+}
+
+
+h1{
+	color: white;
+	font-size: 2em;
+}
+
+form h2{
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+}
+
+
+footer{
+	text-align: center; 
+}
+
+/* ================================= 
+ Classes and Wrappers
+==================================== */
+
+
+.top-description{
+	margin-bottom: 0px;
+	margin-top: -4em;  
+
+}
+
+.contact-info input{
+	width: 80%;
+
+	}
+
+
+.check{
+	display: inline-block;
+	padding-left: 10px;
+}
+
+.check-wrap{
+	text-align: justify;
+	margin-bottom: .65em; 
+	padding: 0 2em 0 2em;
+	font-size: 14px;
+}
+
+
+/*Main Wrapper*/
+
+.main-wrapper{ 
+	max-width: 300px;
+	margin: 10% auto;
+}
+
+
+
+/* ================================= 
+  Media Queries
+==================================== */
