@@ -193,6 +193,10 @@ footer{
 		width: 100%;
 	}
 
+	label{
+		padding: 0 1em 0 0;
+	}
+
 
 	input[type="text"],
 	input[type="email"],
@@ -211,11 +215,11 @@ footer{
 	textarea:focus{
 		width: 66%; 
 	}
+	
 
 	select:focus{
 		width: calc(67% + 30px);  
 	}
-
 
 	select{
 	  width: calc(65% + 30px);
@@ -228,7 +232,7 @@ footer{
 	.field-wrapper label{
 		float: left;
 	}
-
+	
 	.field-wrapper input, 
 	.field-wrapper select, 
 	.field-wrapper textarea{
@@ -246,6 +250,15 @@ footer{
 
 	.news-field-wrapper{
 		display: flex;
+		flex-direction: column;
+	}
+
+	.news-field-wrapper label {
+		max-width: 100%; 
+	}
+	.topic-suggestion,
+	.topic-suggestion textarea{
+		text-align: left;
 	}
 
 }
